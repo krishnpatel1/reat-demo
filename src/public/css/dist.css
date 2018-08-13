@@ -1,0 +1,72 @@
+html, body {margin: 0; padding: 0; font-family: Arial, sans-serif;}
+* { padding:0px; margin:0px; outline:none !important;}
+a { text-decoration:none !important; padding:0px; margin:0px; outline:none;}/*Links*/
+a:hover { text-decoration:none;}/*Links*/
+ul,li { padding:0px; margin:0px; list-style:none; text-decoration:none;}/*Lists*/
+img {padding:0px; margin:0px; border:none; float:left;}/*Images*/
+p,strong,span,div,label,input,select,textarea { padding:0px; margin:0px; font-weight:normal;}/*Author*/
+h1,h2,h3,h4,h5,h6 { padding:0px; margin:0px; font-weight:normal;} /*Headings*/ 
+.mb10 {margin-bottom: 10px !important;}
+.mb20 {margin-bottom: 20px;}
+.mb30 {margin-bottom: 30px;}
+.mb40 {margin-bottom: 40px;}
+.mb50 {margin-bottom: 50px;}
+.mt10 {margin-top: 10px;}
+.mt20 {margin-top: 20px;}
+.mt30 {margin-top: 30px;}
+.mt40 {margin-top: 40px;}
+.mt50 {margin-top: 50px;}
+
+.center_section { float: left; display: table; position: relative; width: 100%; height: 100%; margin: 0;}
+.middle_section { display: table-cell; height: 100vh; float: none; vertical-align: middle; text-align: center; }
+
+.sidebar { position: fixed; top: 0; bottom: 0; left: 0; z-index: 1000; padding: 0; overflow-x: hidden; overflow-y: auto;  border-right: 1px solid #55b74f; background-color: #55b74f;}
+
+/* Sidebar navigation */
+.sidebar {padding-left: 0;padding-right: 0;}
+.sidebar .nav {margin-bottom: 20px;}
+.sidebar .nav-item {width: 100%; float: left; margin: 5px 0}
+.sidebar .nav-item .nav-link { width: 100%; float: left; text-align: center; margin: 0 auto; color: #fff;}
+.sidebar .nav-item .nav-link img {float: none; text-align: center;}
+  
+/*sign up*/
+.form-signin {float: left; width: 100%; margin: 0; padding: 0;}
+p.form-signin-heading {float: left; width: 100%; margin: 0 0 50px; padding: 0; font-weight: bold;}
+.form-signin label {float: left; width: 100%; margin: 0 0 10px; padding: 0; font-size: 16px; line-height: 20px; font-weight: normal; text-align: left;}
+.form-control {border:2px solid #f7f7f7; box-shadow: none; background-color: transparent; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; height: 50px; line-height: normal; font-size: 14px; margin-bottom: 20px;}
+.form-control:focus, .form-control:hover {box-shadow: none; border:2px solid #d2d2d2;}
+.btn-default {background-color: #55b74f; color: #fff; font-size: 16px; line-height: 20px; cursor: pointer; float: left;}
+.form-control::-webkit-input-placeholder {color: #d2d2d2;}
+.form-control::-moz-placeholder {color: #d2d2d2;}
+.form-control:-ms-input-placeholder {color: #d2d2d2;}
+.form-control:-moz-placeholder {color: #d2d2d2;}
+.form-signin p a {color: #55b74f;}
+.form-signin label a {color: #000;}
+
+/*
+ * Dashboard
+ */
+
+ /* Placeholders */
+.placeholders {
+  padding-bottom: 3rem;
+}
+
+.placeholder img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+
+@media (max-width:767px) {
+
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+
+}
+
+
+@media (min-width: 1024px) and (max-width:1199px) {
+
+}
